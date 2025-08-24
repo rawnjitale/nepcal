@@ -21,7 +21,7 @@ With the `nepcal` command, users can specify **year (-y)**, **month (-m)**, and 
 
   
 
-- Convert **any AD date** to **BS** (within 2050–2090 BS range).
+- Convert **current AD date** to **BS**.
 
 - Print **full month calendar** in BS with optional **highlighted day**.
 
@@ -35,6 +35,9 @@ With the `nepcal` command, users can specify **year (-y)**, **month (-m)**, and 
 
   
 1. Clone or copy the repository to your machine.
+```git clone https://github.com/rawnjitale/nepcal/
+   cd nepcal
+```
 
 2. Compile the C program:
 
@@ -58,7 +61,7 @@ Options
 
   
 ```
--y YEAR : Specify BS year (2050–2090)
+-y YEAR : Specify BS year (2070–2090)
 -m MONTH: Specify BS month (1–12)
 -d DAY : Specify day of the month
 ```
